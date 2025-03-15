@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idea Spark - Gerador de Ideias Criativas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Idea Spark</h1>
+        <select id="language-selector">
+            <option value="pt">Português</option>
+            <option value="en">English</option>
+            <option value="es">Español</option>
+        </select>
+    </header>
+    
+    <main>
+        <h2 id="subtitle">Selecione seus interesses</h2>
+        <div id="interests">
+            <label><input type="checkbox" value="tecnologia"> Tecnologia</label>
+            <label><input type="checkbox" value="saude"> Saúde</label>
+            <label><input type="checkbox" value="games"> Games</label>
+            <label><input type="checkbox" value="arte"> Arte</label>
+            <label><input type="checkbox" value="negocios"> Negócios</label>
+        </div>
+        
+        <button id="generate-btn">Gerar Ideias</button>
+        <div id="idea-result"></div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
